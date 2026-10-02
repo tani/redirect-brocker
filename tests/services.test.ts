@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { discordRule } from '../src/services/discord';
 import { slackRule } from '../src/services/slack';
 import { zoomRule } from '../src/services/zoom';
