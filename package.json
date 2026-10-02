@@ -1,0 +1,19 @@
+{
+  "name": "redirect-brocker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.18.0",
+  "scripts": {
+    "build": "vp build",
+    "check": "vp check",
+    "test": "vp test"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.0",
+    "vite-plus": "^1.0.0"
+  },
+  "engines": {
+    "node": "^22.18.0 || ^24.11.0 || >=26.0.0"
+  }
+}
