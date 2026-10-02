@@ -1,3 +1,0 @@
-overrides:
-  vite@*: npm:@voidzero-dev/vite-plus-core@latest
-  vitest@*: 5.0.1
