@@ -27,7 +27,7 @@ export default defineConfig({
       fileName: () => 'redirect-brocker.user.js',
     },
     rollupOptions: { output: { banner: userscriptHeader } },
-    sourcemap: true,
+    sourcemap: false,
     minify: false,
   },
   test: { include: ['tests/**/*.test.ts'] },
